@@ -2,7 +2,7 @@ package BaiTap;
 
 import java.util.Scanner;
 
-public class TimPhanTuLonNhatTrongMangDaChieu {
+public class SearchToArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

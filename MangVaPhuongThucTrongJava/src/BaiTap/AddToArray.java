@@ -3,7 +3,7 @@ package BaiTap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ThemPhanTuVaoMang {
+public class AddToArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean flag =true;

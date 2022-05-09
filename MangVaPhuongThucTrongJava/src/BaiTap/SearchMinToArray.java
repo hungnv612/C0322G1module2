@@ -3,7 +3,7 @@ package BaiTap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TimPhanTuNhoNhatTrongMang {
+public class SearchMinToArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập size : ");

@@ -1,14 +1,13 @@
 package BaiTap;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class TinhTongCacSoOMotCot {
+public class SumVaLueInCross {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter size at height of array:");
+        System.out.println("Nhập size height :");
         int size1 = input.nextInt();
-        System.out.println("Enter size at length of array:");
+        System.out.println("Nhập size length :");
         int size2 = input.nextInt();
         int [][] numberArray = new int[size1][size2];
         System.out.println("Enter " + numberArray.length + " height and " +
@@ -16,15 +15,16 @@ public class TinhTongCacSoOMotCot {
         for (int row = 0; row < numberArray.length; row++) {
             for (int col = 0; col < numberArray[row].length; col++) {
                 numberArray[row][col] = input.nextInt();
-
             }
         }
-        System.out.println(Arrays.deepToString(numberArray));
         int total = 0;
-        System.out.println("ban muon tinh tong cot bao nhieu: ");
-        int col = input.nextInt();
-        for (int i = 0; i < size1; i++) {
-            total += numberArray[i][col];
+        for (int i = 0;  i < numberArray.length; i++) {
+            for (int j = 0; j < numberArray[i].length; j++) {
+                if (numberArray[i] == numberArray[j]) {
+                    total += numberArray[i][j];
+                }
+
+            }
 
         }
         System.out.println(total);
