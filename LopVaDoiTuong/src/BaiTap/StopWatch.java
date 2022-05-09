@@ -1,23 +1,42 @@
 package BaiTap;
 
 public class StopWatch {
-    double startTime,endTime;
-    public StopWatch(){
-        this.startTime=startTime;
-        this.endTime=endTime;
-    }
-    public void setStartTime(double startTime) {
-        this.startTime = startTime;
+    private long starttime, stoptime;
+
+    public StopWatch() {
     }
 
-    public double getStartTime(){
-        return startTime ;
+    public long getStarttime() {
+        return starttime;
     }
-    public void setEndTime(double endTime) {
-        this.endTime = endTime;
+
+    public void setStarttime(long starttime) {
+        this.starttime = starttime;
     }
-    public double getEndTime() {
-        return endTime;
+
+    public long getStoptime() {
+        return stoptime;
+    }
+
+    public void setStoptime(long stoptime) {
+        this.stoptime = stoptime;
+    }
+
+    public StopWatch(long starttime, long stoptime) {
+        this.starttime = starttime;
+        this.stoptime = stoptime;
+    }
+
+    public void star() {
+        setStarttime(System.currentTimeMillis());
+    }
+
+    public void stop() {
+        setStoptime(System.currentTimeMillis());
+    }
+
+    public long getElapsedTime() {
+        return getStoptime() - getStarttime();
     }
 }
 
