@@ -1,4 +1,4 @@
-package BaiTap;
+package BaiTap.ClassJava;
 
 public class Student {
     private String name="John";

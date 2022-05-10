@@ -1,4 +1,4 @@
-package BaiTap;
+package BaiTap.QuadraticEquation;
 
 public class QuadraticEquation {
     double a,b,c;

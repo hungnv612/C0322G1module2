@@ -1,4 +1,4 @@
-package BaiTap;
+package BaiTap.StopWatch;
 
 import java.util.Arrays;
 public class MainStopWatch {

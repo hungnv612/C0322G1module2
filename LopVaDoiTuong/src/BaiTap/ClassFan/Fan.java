@@ -1,4 +1,4 @@
-package BaiTap;
+package BaiTap.ClassFan;
 
 public class Fan {
     final int SLOW = 1;

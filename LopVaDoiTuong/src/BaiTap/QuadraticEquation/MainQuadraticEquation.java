@@ -1,4 +1,6 @@
-package BaiTap;
+package BaiTap.QuadraticEquation;
+
+import BaiTap.QuadraticEquation.QuadraticEquation;
 
 import java.util.Scanner;
 
@@ -11,7 +13,7 @@ public class MainQuadraticEquation {
         double b = scanner.nextDouble();
         System.out.println("Nhập C: ");
         double c = scanner.nextDouble();
-        QuadraticEquation  quadraticEquation =new QuadraticEquation(a,b,c);
+        QuadraticEquation quadraticEquation =new QuadraticEquation(a,b,c);
         double delta = quadraticEquation.getDiscriminant();
         if (delta<0){
             System.out.println("Phương Trình vô nghiệm ");

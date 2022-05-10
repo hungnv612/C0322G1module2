@@ -1,4 +1,4 @@
-package BaiTap;
+package BaiTap.StopWatch;
 
 public class StopWatch {
     private long starttime, stoptime;

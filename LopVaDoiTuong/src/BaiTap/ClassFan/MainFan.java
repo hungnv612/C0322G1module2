@@ -1,4 +1,6 @@
-package BaiTap;
+package BaiTap.ClassFan;
+
+import BaiTap.ClassFan.Fan;
 
 public class MainFan {
     public static void main(String[] args) {

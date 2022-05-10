@@ -1,4 +1,6 @@
-package BaiTap;
+package BaiTap.AccessModifier;
+
+import BaiTap.AccessModifier.Circle;
 
 import java.util.Scanner;
 

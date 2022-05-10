@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94162d28-ea79-4ae4-aae9-f2a65392890d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MangVaPhuongThucTrongJava/src/BaiTap/XoaPhanTuKhoiMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MangVaPhuongThucTrongJava/src/ThucHanh/ChuyenDoiNhietDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MangVaPhuongThucTrongJava/src/ThucHanh/DaoCacPhanTuCuaMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MangVaPhuongThucTrongJava/src/ThucHanh/TimGiaTriLonNhatTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MangVaPhuongThucTrongJava/src/ThucHanh/TimGiaTriNhoNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MangVaPhuongThucTrongJava/src/ThucHanh/TimGiaTriTrongMang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/out/production/Access modifier static method static property/BaiTap/AbstractHuman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/out/production/Access modifier static method static property/BaiTap/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/out/production/Access modifier static method static property/BaiTap/MainCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/out/production/Access modifier static method static property/BaiTap/MainStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/out/production/Access modifier static method static property/BaiTap/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/out/production/Access modifier static method static property/BaiTap/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/out/production/Access modifier static method static property/BaiTap/TestTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/AccessModifier/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/MainCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/AccessModifier/MainCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/MainStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/LopChiGhiJava/MainStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Access modifier static method static property/src/BaiTap/LopChiGhiJava/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,7 @@
       <updated>1651801660077</updated>
       <workItem from="1651801662625" duration="241000" />
       <workItem from="1651828311444" duration="35000" />
+      <workItem from="1652171241999" duration="16000" />
     </task>
     <servers />
   </component>
