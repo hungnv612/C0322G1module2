@@ -64,7 +64,7 @@ public class Fan {
         this.color = color;
     }
 
-    public String Print() {
+    public String Printf() {
         if (this.button) {
             return "Speed:" + this.speed + " Radius:" + this.radius + " Color:" + this.color + " Fan on";
         } else {
