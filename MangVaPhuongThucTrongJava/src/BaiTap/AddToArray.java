@@ -29,7 +29,7 @@ public class AddToArray {
         }
         arr[push]=giaTri;
         System.out.println(Arrays.toString(arr));
-        }while (flag =true);
+        }while (flag ==true);
     }
 
 }

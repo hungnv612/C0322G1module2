@@ -1,11 +1,11 @@
 package BaiTap.ClassFan;
 
 public class Fan {
-    final int SLOW = 1;
-    final int MEDIUM = 2;
-    final int FAST = 3;
-    private int speed = SLOW;
-    private boolean button = false;
+    private final int SLOW = 1;
+    private final int MEDIUM = 2;
+    private final int FAST = 3;
+    private int speed = 1;
+    private boolean on = false;
     private double radius = 5;
     private String color = "blue";
 
@@ -25,28 +25,28 @@ public class Fan {
         return speed;
     }
 
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-
-    public boolean isOff() {
-        return button;
-    }
-
-    public void setOff(boolean off) {
-        this.button = off;
+    public boolean isOn() {
+        return on;
     }
 
     public double getRadius() {
         return radius;
     }
 
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
     public String getColor() {
         return color;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public void setOn(boolean on) {
+        this.on = on;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 
     public void setColor(String color) {
@@ -57,19 +57,26 @@ public class Fan {
 
     }
 
-    public Fan(int speed, boolean button, double radius, String color) {
+    public Fan(int speed, boolean on, double radius, String color) {
         this.speed = speed;
-        this.button = button;
+        this.on = on;
         this.radius = radius;
         this.color = color;
     }
 
-    public String Printf() {
-        if (this.button) {
-            return "Speed:" + this.speed + " Radius:" + this.radius + " Color:" + this.color + " Fan on";
+    public String toString() {
+        String state = " ";
+        if (this.isOn()) {
+            state += (" Fan is on");
+            state += (" Speed:" + this.speed);
         } else {
-            this.speed=0;
-            return "Speed:" + this.speed +" Color:" + this.color + " Radius:" + this.radius + " Fan off";
+            state += (" Fan is off");
         }
+        state += (" Radius: " + this.radius);
+        state += (" Color: " + this.color);
+        return state;
+    }
+    void display(){
+        System.out.println(toString());
     }
 }
