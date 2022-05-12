@@ -29,7 +29,7 @@ public class Point3D extends Point2D {
     public void setXYZ(float z) {
         this.z = z;
     }
-    void display(){
+    public void display(){
         System.out.println(toString());
     }
     @Override

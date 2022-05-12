@@ -37,7 +37,7 @@ public class Point2D {
         this.x = x;
         this.y = y;
     }
-    void display(){
+    public void display(){
         System.out.println(toString());
     }
     @Override

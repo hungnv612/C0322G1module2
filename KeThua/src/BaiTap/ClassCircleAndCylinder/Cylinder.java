@@ -21,7 +21,7 @@ public class Cylinder extends Circle{
     public double volume(){
         return Math.pow(this.getRadius(),2) * Math.PI * this.height;
     }
-    void display(){
+    public void display(){
         System.out.println(toString());
     }
 

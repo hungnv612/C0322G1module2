@@ -31,7 +31,7 @@ public class Circle {
     public double Acreage(){
         return Math.pow(this.radius,2) * Math.PI;
     }
-    void display(){
+    public void display(){
         System.out.println(toString());
     }
     @Override
