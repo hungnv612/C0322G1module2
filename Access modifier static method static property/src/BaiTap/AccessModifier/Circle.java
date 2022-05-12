@@ -30,7 +30,7 @@ public class Circle {
     public double getArea(){
         return (this.radius * this.radius)*Math.PI;
     }
-    void display(){
+    public void display(){
         System.out.println("Bán kính: " + this.radius);
         System.out.println("Màu: "+ this.color);
         System.out.println("Area: "+ getArea());

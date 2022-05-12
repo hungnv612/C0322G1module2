@@ -64,7 +64,7 @@ public class Fan {
         this.color = color;
     }
 
-    public String toString() {
+    public String toString(){
         String state = " ";
         if (this.isOn()) {
             state += (" Fan is on");

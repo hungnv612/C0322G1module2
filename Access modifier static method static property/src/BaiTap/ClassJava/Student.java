@@ -26,7 +26,7 @@ public class Student {
     public void setClasses(String classes) {
         this.classes = classes;
     }
-    void display(){
+    public void display(){
         System.out.println("Tên: "+this.name);
         System.out.println("Lớp: "+this.classes);
     }
