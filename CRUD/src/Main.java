@@ -12,7 +12,7 @@ public class Main {
     static {
         System.out.println("Block static");
         productList[0] = new Product(1, "Iphone", 1000, 10, "iphone");
-        productList[1] = new Product(2, "Iphone1", 1000, 10, "iphone");
+        productList[1] = new Product(2, "Iphone", 1000, 10, "iphone");
         productList[2] = new Product(3, "Iphone2", 1000, 10, "iphone");
         productList[3] = new Product(4, "Iphone3", 1000, 10, "iphone");
         productList[4] = new Product(5, "Iphone4", 1000, 10, "iphone");
@@ -35,6 +35,7 @@ public class Main {
     }
 
     public static void displayList() {
+        System.out.println("---------------------------------------------------");
         for (Product item : productList) {
             if (item != null) {
                 System.out.println(item);
@@ -70,7 +71,6 @@ public class Main {
                     if (product != null && product.getName().contains(name)) {
                         System.out.println(product);
                         flag = false;
-                        break;
                     }
                 }
                 if (flag) {
@@ -83,17 +83,18 @@ public class Main {
     public static void delete() {
         System.out.println("nhập ID cần xóa");
         int id = Integer.parseInt(scanner.nextLine());
-        for (int i = 0; i < productList.length; i++) {
-            if (productList[i] != null && productList[i].getId() == id) {
-                productList[id - 1] = null;
+        for (int i = id - 1; i < productList.length - 1; i++) {
+            if(productList[i] != null ) {
+                productList[i] = productList[i + 1];
                 flag = false;
-                break;
             }
         }
         if (flag) {
             System.out.println("Ko tìm thấy ");
         }
     }
+
+
 
     public static void update() {
         System.out.println("nhập ID cần Update");

@@ -40,8 +40,13 @@ public class Point2D {
     public void display(){
         System.out.println(toString());
     }
+
     @Override
     public String toString() {
-        return Arrays.toString(getXY());
+        return "(" +
+                "x: " + x +
+                ", y: " + y +
+                ')';
     }
+
 }

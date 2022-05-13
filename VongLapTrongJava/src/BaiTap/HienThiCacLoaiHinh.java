@@ -44,6 +44,7 @@ public class HienThiCacLoaiHinh {
                                 }
                                 System.out.println();
                             }
+                            break;
                         case 2:
                             System.out.println("Nhap chiều rong");
                             rong= input.nextInt();

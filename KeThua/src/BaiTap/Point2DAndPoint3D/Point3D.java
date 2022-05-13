@@ -32,8 +32,13 @@ public class Point3D extends Point2D {
     public void display(){
         System.out.println(toString());
     }
+
     @Override
     public String toString() {
-        return Arrays.toString(getXYZ());
+        return "(" +
+                "x= " + getX() +
+                ", y= " + getY() +
+                ", z= " + z +
+                ')';
     }
 }
