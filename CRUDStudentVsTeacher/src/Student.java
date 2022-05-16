@@ -20,11 +20,13 @@ public class Student extends Person {
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + getId() +
+                "id=" + this.getId() +
                 ", name='" + getName() + '\'' +
                 ", age=" + getAge() +
                 ", gender=" + getGender() +
                 ", point=" + point +
                 '}';
     }
+
+
 }

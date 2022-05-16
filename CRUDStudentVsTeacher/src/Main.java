@@ -63,6 +63,7 @@ public class Main {
         for (int i = id - 1; i < peopleList.length - 1; i++) {
             if (peopleList[i] != null) {
                 peopleList[i] = peopleList[i + 1];
+//                peopleList[i+1].setId( peopleList[i].getId());
                 flag = false;
             }
         }
@@ -121,7 +122,7 @@ public class Main {
                 System.out.println("nhập ID cần Update");
                 int idSt = Integer.parseInt(scanner.nextLine());
                 for (int i = 0; i < peopleList.length; i++) {
-                    if (peopleList[i] != null && peopleList[i].getId() == idSt) {
+                    if (peopleList[i] != null && peopleList[i].getId() == idSt && peopleList[i] instanceof Student) {
                         System.out.println("nhập tên ");
                         String nameSt = scanner.nextLine();
                         System.out.println("nhập tuổi ");
@@ -146,7 +147,7 @@ public class Main {
                 System.out.println("nhập ID cần Update");
                 int idTc = Integer.parseInt(scanner.nextLine());
                 for (int i = 0; i < peopleList.length; i++) {
-                    if (peopleList[i] != null && peopleList[i].getId() == idTc) {
+                    if (peopleList[i] != null && peopleList[i].getId() == idTc && peopleList[i] instanceof Teacher) {
                         System.out.println("nhập tên ");
                         String nameSt = scanner.nextLine();
                         System.out.println("nhập tuổi ");
