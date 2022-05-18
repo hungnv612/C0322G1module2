@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47580f8f-dd3b-4b3c-80f1-4e1c0bc5d096" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaiTap/MainTennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaiTap/TennisGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUDStudentVsTeacher/out/production/CRUDStudentVsTeacher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUDStudentVsTeacher/out/production/CRUDStudentVsTeacher/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUDStudentVsTeacher/out/production/CRUDStudentVsTeacher/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUDStudentVsTeacher/out/production/CRUDStudentVsTeacher/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUDStudentVsTeacher/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUDStudentVsTeacher/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUDStudentVsTeacher/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUDStudentVsTeacher/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUDStudentVsTeacher/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUDStudentVsTeacher/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +37,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainTennisGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CleaCodeAndRefactoring" />
       <extension name="coverage">
@@ -87,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652670359476</updated>
       <workItem from="1652670361065" duration="5122000" />
-      <workItem from="1652714748335" duration="370000" />
+      <workItem from="1652714748335" duration="1151000" />
+      <workItem from="1652750983218" duration="185000" />
     </task>
     <servers />
   </component>
@@ -104,5 +85,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
