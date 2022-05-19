@@ -10,24 +10,24 @@ public class TestBracket {
         System.out.println("NHập một chuỗi  ");
         String str = scanner.nextLine();
         String[] arrStr = str.toUpperCase().split("");
-       boolean flag = true;
-        for (String item:arrStr) {
+        boolean flag = true;
+        for (String item : arrStr) {
             if (item.equals("(")) {
                 stack.add(item);
-            }else if ( item.equals(")")){
-                if (stack.isEmpty()){
-                    flag=false;
-                }else {
+            } else if (item.equals(")")) {
+                if (stack.isEmpty()) {
+                    flag = false;
+                } else {
                     stack.pop();
                 }
             }
         }
-        if (!stack.isEmpty()){
+        if (!stack.isEmpty()) {
             flag = false;
         }
-        if (flag){
+        if (flag) {
             System.out.println("Well");
-        }else {
+        } else {
             System.out.println("???");
         }
     }

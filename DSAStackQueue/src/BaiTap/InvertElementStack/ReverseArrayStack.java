@@ -14,17 +14,17 @@ public class ReverseArrayStack {
             System.out.println("nhập phần tử");
             arr[i] = scanner.nextInt();
         }
-        for (int item : arr){
+        for (int item : arr) {
             System.out.println(item);
         }
         Stack<Integer> stack = new Stack<>();
-        for (int value:
-             arr) {
+        for (int value :
+                arr) {
             stack.push(value);
         }
         for (int i = 0; i < arr.length; i++) {
-            arr[i]=stack.pop();
+            arr[i] = stack.pop();
         }
-        System.out.println("Mảng sau khi đổi: "+ Arrays.toString(arr));
+        System.out.println("Mảng sau khi đổi: " + Arrays.toString(arr));
     }
 }

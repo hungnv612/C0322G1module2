@@ -20,19 +20,19 @@ public class Main {
         Queue<Management> queueNu = new LinkedList<>();
         Queue<Management> queueNam = new LinkedList<>();
 
-        for (Management item:person) {
-            if (!item.getGender()){
+        for (Management item : person) {
+            if (!item.getGender()) {
                 queueNu.add(item);
-            }else {
+            } else {
                 queueNam.add(item);
             }
         }
         System.out.println("-----------------------------------");
-        while (!queueNam.isEmpty()){
+        while (!queueNam.isEmpty()) {
             System.out.println(queueNam.poll());
         }
         System.out.println("-----------------------------------");
-        while (!queueNu.isEmpty()){
+        while (!queueNu.isEmpty()) {
             System.out.println(queueNu.poll());
         }
     }

@@ -16,7 +16,7 @@ public class CountingNumbersMap {
 
         for (String item : arrStr) {
             if (countMap.containsKey(item)) {
-                value = countMap.get(item)+1;
+                value = countMap.get(item) + 1;
                 countMap.put(item, value);
             } else {
                 value = 1;

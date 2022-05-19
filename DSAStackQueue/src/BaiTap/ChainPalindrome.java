@@ -14,17 +14,17 @@ public class ChainPalindrome {
         int cout = arrStr.length;
         Collections.addAll(queue, arrStr);
         Collections.addAll(stack, arrStr);
-        for (int i = 0; i < cout ; i++) {
-            if (queue.poll().equals(stack.pop())){
-               flag=true;
-            }else {
-                flag=false;
+        for (int i = 0; i < cout; i++) {
+            if (queue.poll().equals(stack.pop())) {
+                flag = true;
+            } else {
+                flag = false;
                 break;
             }
         }
-        if (flag){
+        if (flag) {
             System.out.println("đây là chuỗi palindrome");
-        }else {
+        } else {
             System.out.println("đây ko phải là chuỗi palindrome");
         }
 

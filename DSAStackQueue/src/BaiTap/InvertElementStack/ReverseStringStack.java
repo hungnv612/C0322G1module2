@@ -12,11 +12,11 @@ public class ReverseStringStack {
         String[] arrString = word.split("");
         Stack<String> stack = new Stack<>();
         for (String value : arrString
-        ){
+        ) {
             stack.push(value);
         }
         for (int i = 0; i < arrString.length; i++) {
-            arrString[i]=stack.pop();
+            arrString[i] = stack.pop();
         }
         System.out.println(Arrays.toString(arrString));
     }
