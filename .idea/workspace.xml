@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f906f36b-930d-4d6e-b2c4-8809a00abb7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CRUDStudentVsTeacher/out/production/CRUDStudentVsTeacher/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDStudentVsTeacher/out/production/CRUDStudentVsTeacher/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDStudentVsTeacher/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDStudentVsTeacher/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAStackQueue/src/ThucHanh/StackUseClassLinkedList/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAStackQueue/src/ThucHanh/StackUseClassLinkedList/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAStackQueue/src/ThucHanh/a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652670477047</updated>
       <workItem from="1652670479973" duration="3000" />
+      <workItem from="1652861352598" duration="4000" />
     </task>
     <servers />
   </component>
