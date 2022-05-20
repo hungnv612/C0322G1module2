@@ -82,7 +82,11 @@ public class MyList<E> {
                 break;
             }
         }
+<<<<<<< HEAD
         if (index == -1) {
+=======
+        if (index == -1){
+>>>>>>> 31f7515fa735f4b91298e63383a781eea3e71882
             System.out.println("ko tìm thấy");
         }
         return index;
