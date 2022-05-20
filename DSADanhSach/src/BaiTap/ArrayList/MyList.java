@@ -82,7 +82,7 @@ public class MyList<E> {
                 break;
             }
         }
-        if (index ==-1){
+        if (index == -1){
             System.out.println("ko tìm thấy");
         }
         return index;
