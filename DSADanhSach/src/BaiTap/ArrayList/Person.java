@@ -1,8 +1,8 @@
 package BaiTap.ArrayList;
 
 public class Person {
-    String name;
-    int Age;
+    private String name;
+    private int Age;
 
     Person(String name, int age) {
         this.name = name;
