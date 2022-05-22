@@ -7,11 +7,12 @@ import java.util.*;
 public class ProductManager extends Product {
     public static Scanner scanner = new Scanner(System.in);
     public static List<Product> list = new ArrayList<>();
-    //  public static List<Product> list = new LinkedList<>();
+    //  public static List<Product> list = new LinkedList<>();i
     public static int count = 6;
 
     static {
-        list.add(new Product(1, "Ịphone11", 9, "apple", 60000));
+        list.add(new Product(1, "Ịphone11", 16, "apple", 60000));
+//        list.add(new Product());
         list.add(new Product(2, "Ịphone12", 10, "apple", 80000));
         list.add(new Product(3, "Ịphonexs", 11, "apple", 1000000));
         list.add(new Product(4, "Ịphone13", 12, "apple", 70000));
@@ -35,12 +36,11 @@ public class ProductManager extends Product {
 
     public void display() {
         for (Product product : list) {
-            if (list.isEmpty()) {
-                System.out.println("Mảng rỗng");
+            if (product.getId() == 0) {
+                System.out.println("mang rong");
             } else {
                 System.out.println(product);
             }
-
         }
     }
 
@@ -86,32 +86,17 @@ public class ProductManager extends Product {
     }
 
     public void sortLow() {
-        Collections.sort(list, new Comparator<Product>() {
-            @Override
-            public int compare(Product o1, Product o2) {
-                return (int) (o2.getPrice() - o1.getPrice());
-            }
-        });
+        list.sort((o1, o2) -> (int) (o2.getPrice() - o1.getPrice()));
         System.out.println("Xắp xếp thành công");
     }
 
     public void sortUp() {
-        Collections.sort(list, new Comparator<Product>() {
-            @Override
-            public int compare(Product o1, Product o2) {
-                return (int) (o1.getPrice() - o2.getPrice());
-            }
-        });
+        list.sort((o1, o2) -> (int) (o1.getPrice() - o2.getPrice()));
         System.out.println("Xắp xếp thành công");
     }
 
     public void sortId() {
-        Collections.sort(list, new Comparator<Product>() {
-            @Override
-            public int compare(Product o1, Product o2) {
-                return o1.getId() - o2.getId();
-            }
-        });
+        list.sort((o1, o2) -> o1.getId() - o2.getId());
         System.out.println("Xắp xếp thành công");
     }
 
