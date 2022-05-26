@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef32b36-efad-4c6e-8ce7-b98ebf278599" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaiTap/insertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaiTap/insertSortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +105,7 @@
       <workItem from="1653359613023" duration="3286000" />
       <workItem from="1653379726906" duration="3958000" />
       <workItem from="1653439207612" duration="281000" />
+      <workItem from="1653441471097" duration="908000" />
     </task>
     <servers />
   </component>
