@@ -21,11 +21,16 @@ public class MainCheck {
             } catch (NumberFormatException e) {
                 System.out.println("ko dc nhập ký tự");
                 flag = true;
+//                System.exit(0);
             } catch (IllegalTriangleException e) {
                 System.out.println("Nhập lại");
                 System.out.println("-------------------------");
                 flag = true;
             }
+
+//            finally {
+//                System.out.println("chạy");
+//            }
         } while (flag);
     }
 

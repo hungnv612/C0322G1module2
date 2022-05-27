@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef32b36-efad-4c6e-8ce7-b98ebf278599" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/CopyFileText/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/CopyFileText/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/Country" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/File" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/Nation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/Nation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/Produst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/File/ketqua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/File/tinhtong" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/File/txt1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/ThucHanh/FindMaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/ThucHanh/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/ThucHanh/ReadFileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/out/production/Debug/BaiTap/ClassIllegalTriangleException/MainCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/out/production/Debug/BaiTap/ClassIllegalTriangleException/MainCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/src/BaiTap/ClassIllegalTriangleException/MainCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/src/BaiTap/ClassIllegalTriangleException/MainCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaiTap/insertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaiTap/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaiTap/insertSortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaiTap/InsertSortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../management_student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../management_student/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +50,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ThuatToanTimKiem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.insertSort">
+  <component name="RunManager" selected="Application.InsertSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThucHanh.BubbleSort" />
       <module name="ThuatToanSapXep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ThucHanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.InsertSort" />
+      <module name="ThuatToanSapXep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertSortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.InsertSortList" />
+      <module name="ThuatToanSapXep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,36 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="insertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.insertSort" />
-      <module name="ThuatToanSapXep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaiTap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="insertSortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.insertSortList" />
-      <module name="ThuatToanSapXep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaiTap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.insertSort" />
-        <item itemvalue="Application.insertSortList" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.InsertSortList" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
       </list>
@@ -106,6 +137,7 @@
       <workItem from="1653379726906" duration="3958000" />
       <workItem from="1653439207612" duration="281000" />
       <workItem from="1653441471097" duration="908000" />
+      <workItem from="1653614130076" duration="691000" />
     </task>
     <servers />
   </component>

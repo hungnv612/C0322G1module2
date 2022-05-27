@@ -2,7 +2,7 @@ package BaiTap;
 
 import java.util.Arrays;
 
-public class insertSortList {
+public class InsertSortList {
     public static void insertSort(double[] list) {
         int n = list.length;
         for (int i = 1; i < n; ++i) {

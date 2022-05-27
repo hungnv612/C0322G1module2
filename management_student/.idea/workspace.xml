@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9151cf26-1b1c-41db-9802-42c6e4802c58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DSADanhSach/src/ThucHanh/LinkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSADanhSach/src/ThucHanh/LinkedList/TestMyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSADanhSach/src/ThucHanh/ListSimple/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSADanhSach/src/ThucHanh/ListSimple/MyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CleaCodeAndRefactoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CleaCodeAndRefactoring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/CopyFileText/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/CopyFileText/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/Nation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/DocFileCsv/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/BaiTap/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/File/ketqua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/File/tinhtong" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/File/txt1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/ThucHanh/FindMaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/ThucHanh/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextFile/src/ThucHanh/ReadFileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/out/production/Debug/BaiTap/ClassIllegalTriangleException/MainCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/out/production/Debug/BaiTap/ClassIllegalTriangleException/MainCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/src/BaiTap/ClassIllegalTriangleException/MainCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/src/BaiTap/ClassIllegalTriangleException/MainCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652753300760</updated>
       <workItem from="1652753302158" duration="185000" />
+      <workItem from="1653558146783" duration="8000" />
     </task>
     <servers />
   </component>
@@ -54,5 +63,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

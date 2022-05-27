@@ -3,7 +3,7 @@ package BaiTap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class insertSort {
+public class InsertSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter list size:");
