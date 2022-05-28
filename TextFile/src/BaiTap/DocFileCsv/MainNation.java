@@ -15,7 +15,6 @@ public class MainNation {
             System.out.println("Nhập: 0 để xuất 1 để tiếp tục");
             num =Integer.parseInt(scanner.nextLine());
         }while (num!=0);
-
         List<String[]> list =  ReadAndWriteFile.readerFile("src/BaiTap/DocFileCsv/file");//"src/BaiTap/DocFileCsv/Country"
         List<Produst> produsts = new ArrayList<>();
         for (String[] item : list){
