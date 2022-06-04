@@ -2,8 +2,8 @@ package services;
 
 
 public interface BookingService  {
-    public void addBooking();
+    void add();
 
-    public void displayListBooking();
+    void display();
 
 }

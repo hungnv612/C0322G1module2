@@ -12,6 +12,4 @@ public interface EmployeeService extends Service{
     @Override
     void update() throws IOException;
 
-    @Override
-    void delete();
 }

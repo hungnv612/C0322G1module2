@@ -37,9 +37,9 @@ public class House extends Facility {
 
     @Override
     public String toString() {
-        return "House : " + romStandard +
+        return "House tiêu chuẩn phòng: " + romStandard +
                 " so tang: " + numberFloors +
-                "Tên dịch vụ: " + getServiceName() +
+                " Tên dịch vụ: " + getServiceName() +
                 " Diện tích sử dụng: " + getUsableArea() +
                 " Chi phí thuê: " + getRentalCosts() +
                 " Sô người ở tối đa:" + getPeopleMaximum() +

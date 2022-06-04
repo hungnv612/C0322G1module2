@@ -12,6 +12,4 @@ public interface CustomerService extends Service{
     @Override
     void update() throws IOException;
 
-    @Override
-    void delete();
 }

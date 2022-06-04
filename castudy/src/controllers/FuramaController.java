@@ -1,13 +1,17 @@
 package controllers;
 
 
+import services.ImpI.CustomerServiceIpl;
 import services.ImpI.EmployeeServiceIpl;
+import services.ImpI.FacilityServiceIpl;
 
 import java.util.Scanner;
 
 public class FuramaController {
     static Scanner scanner = new Scanner(System.in);
     public static EmployeeServiceIpl employeeServiceIpl = new EmployeeServiceIpl();
+    public static CustomerServiceIpl customerServiceIpl = new CustomerServiceIpl();
+    public static FacilityServiceIpl facilityServiceIpl = new FacilityServiceIpl();
 
     public static void displayMainMenu() {
         do {
@@ -95,15 +99,15 @@ public class FuramaController {
                 switch (choose1) {
                     case 1:
                         System.out.println("====Display list customers====");
-
+                        customerServiceIpl.display();
                         break;
                     case 2:
                         System.out.println("====Add new customer====");
-
+                        customerServiceIpl.add();
                         break;
                     case 3:
                         System.out.println("====Edit customer====");
-
+                        customerServiceIpl.update();
                         break;
                     case 4:
                         return;
@@ -128,15 +132,15 @@ public class FuramaController {
                 switch (choose2) {
                     case 1:
                         System.out.println("====Display list facility====");
-
+                        facilityServiceIpl.display();
                         break;
                     case 2:
                         System.out.println("====Add new facility====");
-
+                        facilityServiceIpl.add();
                         break;
                     case 3:
                         System.out.println("====Display list facility maintenance====");
-
+                        facilityServiceIpl.displayMaintenance();
                         break;
                     case 4:
                         return;

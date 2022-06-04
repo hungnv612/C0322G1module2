@@ -54,14 +54,14 @@ public class Employee extends Person {
     @Override
     public String toString() {
         return "Employee ID: " + getId() +
-                "  Tên: " + getFullName() +
-                "  Vị trí: " + location +
-                "  Lương: " + salary + " Nghìn $ " +
-                "  Mã số: " + getCode() +
-                "  Trình độ: " + level +
-                "  Giới tính: " + getGenDer() +
-                "  SDT: " + getNumberPhone() +
-                "  Email: " + getEmail();
+                ",  Tên: " + getFullName() +
+                ",  Vị trí: " + location +
+                ",  Lương: " + salary + " Nghìn $ " +
+                ",  Mã số: " + getCode() +
+                ",  Trình độ: " + level +
+                ",  Giới tính: " + getGenDer() +
+                ",  SDT: " + getNumberPhone() +
+                ",  Email: " + getEmail();
 
     }
 }

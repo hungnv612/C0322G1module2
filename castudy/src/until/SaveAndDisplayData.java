@@ -10,23 +10,24 @@ public class SaveAndDisplayData {
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
         try {
-            fileWriter = new FileWriter(file,false);
+            fileWriter = new FileWriter(file, false);
             bufferedWriter = new BufferedWriter(fileWriter);
             bufferedWriter.write(data);
             bufferedWriter.newLine();
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             bufferedWriter.close();
         }
     }
-    public static List<String[]> readerFile(String pathFile){
+
+    public static List<String[]> readerFile(String pathFile) {
         File file = new File(pathFile);
         List<String[]> list = new ArrayList<>();
         String line;
         try (FileReader fileReader = new FileReader(file);
-             BufferedReader bufferedReader = new BufferedReader(fileReader)){
-            while ((line = bufferedReader.readLine()) !=null&&!line.equals("")){
+             BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+            while ((line = bufferedReader.readLine()) != null && !line.equals("")) {
                 String[] arr = line.split(",");
                 list.add(arr);
             }

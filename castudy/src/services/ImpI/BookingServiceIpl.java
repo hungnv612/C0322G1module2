@@ -6,12 +6,12 @@ import services.BookingService;
 public class BookingServiceIpl implements BookingService {
 
     @Override
-    public void addBooking() {
+    public void add() {
 
     }
 
     @Override
-    public void displayListBooking() {
+    public void display() {
 
     }
 }

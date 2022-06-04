@@ -5,26 +5,25 @@ public class Customer extends Person {
     private String guestType;
     private String address;
 
-    public Customer(int code, String fullName, String genDer, int id, int numberPhone, String email) {
-        super(code, fullName, genDer, id, numberPhone, email);
+    public Customer() {
     }
 
     @Override
     public String testToString() {
-        return  guestType +
-                "," + address +
-                "," + getCode() +
-                "," + getFullName() +
-                "," + getGenDer() +
-                "," + getId() +
-                "," + getNumberPhone() +
-                "," + getEmail();
+        return null;
     }
+//    @Override
+//    public String testToString() {
+//        return  guestType +
+//                "," + address +
+//                "," + getCode() +
+//                "," + getFullName() +
+//                "," + getGenDer() +
+//                "," + getId() +
+//                "," + getNumberPhone() +
+//                "," + getEmail();
+//    }
 
-    public Customer(int anInt, String s1, String s, int parseInt, int i, String guestType, String address) {
-        this.guestType = guestType;
-        this.address = address;
-    }
 
     public Customer(int code, String fullName, String genDer, int id, int numberPhone, String email, String guestType, String address) {
         super(code, fullName, genDer, id, numberPhone, email);
@@ -32,9 +31,6 @@ public class Customer extends Person {
         this.address = address;
     }
 
-    public Customer(int anInt, String s4, String s3, int parseInt, int i, String s2, String s1, String s, String guestType) {
-        this.guestType = guestType;
-    }
 
     public String getGuestType() {
         return guestType;
@@ -55,13 +51,13 @@ public class Customer extends Person {
     @Override
     public String toString() {
         return "Customer co kieu khach: " + guestType +
-                " dia chi: " + address +
-                "co ma so: " + getCode() +
-                " Ho ten: " + getFullName() +
-                " Gioi tinh: " + getGenDer() +
-                " id: " + getId() +
-                " SDT: " + getNumberPhone() +
-                " Email: " + getEmail();
+                ", id: " + getId() +
+                ", dia chi: " + address +
+                ", co ma so: " + getCode() +
+                ", Ho ten: " + getFullName() +
+                ", Gioi tinh: " + getGenDer() +
+                ", SDT: " + getNumberPhone() +
+                ", Email: " + getEmail();
 
 
     }

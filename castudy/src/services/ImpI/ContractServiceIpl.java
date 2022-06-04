@@ -20,8 +20,4 @@ public class ContractServiceIpl implements ContractService {
 
     }
 
-    @Override
-    public void delete() {
-
-    }
 }

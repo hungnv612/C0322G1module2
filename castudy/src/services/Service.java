@@ -9,5 +9,4 @@ public interface Service {
 
     void update() throws IOException;
 
-    void delete();
 }

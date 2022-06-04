@@ -26,10 +26,10 @@ public class Room extends Facility {
 
     @Override
     public String toString() {
-        return "Room co: " + serviceFree +
+        return "Room dịch vụ free: " + serviceFree +
                 "Tên dịch vụ: " + getServiceName() +
                 " Diện tích sử dụng: " + getUsableArea() +
-                " Chi phí thuê: " + getRentalCosts()+
+                " Chi phí thuê: " + getRentalCosts() +
                 " Sô người ở tối đa:" + getPeopleMaximum() +
                 " Kiểu thuê: " + getRentalType2();
     }
